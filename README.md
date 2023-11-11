@@ -2,7 +2,7 @@
 
 
 ¡Bienvenido/a al Club!
-![Logo CDCU](/Documentación/Assets/logo.png)
+![Logo CDCU](/Documentacion/Assets/logo.png)
 Para comenzar, queremos asegurarnos que tu estancia en el Club sea agradable y vaya acorde a tus objetivos, por tanto a continuación te presentamos los objetivos del Club. Adicionalmente, en este repositorio podrás encontrar acceso a materiales de estudio y una guía para dar tus primeros pasos en el mundo de la ciberseguridad. ¡Esperamos les guste!
 
 
