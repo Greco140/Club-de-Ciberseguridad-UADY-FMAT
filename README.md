@@ -21,8 +21,3 @@ Para comenzar, queremos asegurarnos que tu estancia en el Club sea agradable y v
 
 * Crear un espacio donde los estudiantes interesados en ciberseguridad puedan conectarse, compartir ideas y colaborar en proyectos.
 * Fomentar la participación activa de los miembros en actividades del club.
-
-
-## Preparación para Certificaciones:
-
-* Ayudar a los estudiantes a prepararse para certificaciones reconocidas en ciberseguridad.
