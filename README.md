@@ -1,4 +1,4 @@
-# Club de Ciberseguridad UADY
+# Club de Ciberseguridad UADY-FMAT
 
 
 ¡Bienvenido/a al Club!
