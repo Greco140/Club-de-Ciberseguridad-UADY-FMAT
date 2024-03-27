@@ -1,6 +1,6 @@
 <h1>Fases hacking</h1>
 
-Para resoolver una máquina, necesitamos pasar por una serie de fases para saber a que nos estamos enfrentando, por ello, de manera general te listo las fases a continuación:
+Para resolver una máquina, necesitamos pasar por una serie de fases para saber a que nos estamos enfrentando, por ello, de manera general te listo las fases a continuación:
 1. **Reconocimiento**:
     
     - En esta fase, se recopila información sobre el objetivo del pentest, como direcciones IP, nombres de dominio, infraestructura de red, tecnologías utilizadas, empleados, etc. Se pueden utilizar herramientas como búsqueda en motores de búsqueda, escaneo de puertos, consultas WHOIS, entre otras.
