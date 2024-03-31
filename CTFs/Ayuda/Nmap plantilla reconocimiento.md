@@ -1,7 +1,7 @@
 <h1>Nmap plantilla</h1>
 <h3>Plantilla:
 
-nmap -p- --open --min-rate=5000 -vvv -sCV -n -Pn (ip atacante) -oN escaneo</h3>
+nmap -p- --open --min-rate=5000 -vvv -sCV -n -Pn (ip víctima) -oN escaneo</h3>
 
 Donde:
 - **`nmap`**: Es el comando para ejecutar Nmap, una herramienta de escaneo de red.
@@ -20,6 +20,6 @@ Donde:
     
 - **`-Pn`**: Esta opción le dice a Nmap que no realice el ping de descubrimiento de hosts antes de escanear. Esto es útil si sospechas que el host objetivo puede estar filtrando los paquetes ICMP o si deseas escanear hosts que no responden al ping.
     
-- **`<aquí la ip sin "<>"">`**: Aquí debes ingresar la dirección IP del host que deseas escanear.
+- **`(ip víctima)`**: Aquí debes ingresar la dirección IP del host que deseas escanear.
     
 - **`-oN escaneo`**: Esta opción indica a Nmap que guarde los resultados del escaneo en un archivo de texto con el nombre "escaneo". La letra "o" seguida de "N" significa "guardar en formato normal".
