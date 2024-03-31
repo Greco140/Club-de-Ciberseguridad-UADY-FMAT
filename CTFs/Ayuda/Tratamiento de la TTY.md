@@ -26,12 +26,15 @@ stty raw -echo; fg
 ```
 reset xterm
 ```
-
 Exportamos las variables de entorno **TERM** y **SHELL**
 
-- `export TERM=xterm` -> Debemos hacer esto ya que a pesar de haberle indicado que queríamos una **xterm** al momento de reiniciarlo la variable de entorno **TERM** vale **dump** (Se usa esta variable para poder usar los atajos de teclado).
-- `export SHELL=bash` -> Para que nuestra shell sea una bash.
+```
+export TERM=xterm
+```
+Debemos hacer esto ya que a pesar de haberle indicado que queríamos una **xterm** al momento de reiniciarlo la variable de entorno **TERM** vale **dump** (Se usa esta variable para poder usar los atajos de teclado).
+```
+export SHELL=bash
+```
+Para que nuestra shell sea una bash.
 
-Ya con esto hecho tendríamos una **TTY** full interactiva, pero falta una cosa para que sea lo más comoda posible, setear las filas y columnas, esto para poder ocupar toda nuestra pantalla ya que en este momento solo podemos usar una porción de esta
-
-Y listo!, ya podemos disfrutar de una shell totalmente interactiva y muy comoda para continuar rompiendo
+Y listo, ya con estos pasos debemos tener una shell interactiva :P
