@@ -1,7 +1,7 @@
 <h1>Nmap plantilla</h1>
 <h3>Plantilla:
 
-nmap -p- --open --min-rate=5000 -vvv -sCV -n -Pn <aquí la ip sin "<>"> -oN escaneo</h3>
+nmap -p- --open --min-rate=5000 -vvv -sCV -n -Pn (ip atacante) -oN escaneo</h3>
 
 Donde:
 - **`nmap`**: Es el comando para ejecutar Nmap, una herramienta de escaneo de red.
