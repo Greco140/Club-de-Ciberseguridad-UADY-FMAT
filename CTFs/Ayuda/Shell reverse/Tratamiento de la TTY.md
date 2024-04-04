@@ -17,24 +17,31 @@ www-data@host:/$ ^Z
 zsh: suspended  nc -nlvp 443
 ```
 
-Ahora resetearemos la configuración de la shell que dejamos en segundo plano indicando **reset** y **xterm**
+Ahora resetearemos la configuración de la shell que dejamos en segundo plano escribiendo: 
 
 ```
 stty raw -echo; fg
 ```
 
+Ahora que se nos queda algo similar a:
+```
+[1] + continued nc -nlvp 443
+```
+
+Escribiremos ahí mismo:
+
 ```
 reset xterm
 ```
+
 Exportamos las variables de entorno **TERM** y **SHELL**
 
 ```
 export TERM=xterm
 ```
-Debemos hacer esto ya que a pesar de haberle indicado que queríamos una **xterm** al momento de reiniciarlo la variable de entorno **TERM** vale **dump** (Se usa esta variable para poder usar los atajos de teclado).
+
 ```
 export SHELL=bash
 ```
-Para que nuestra shell sea una bash.
 
 Y listo, ya con estos pasos debemos tener una shell interactiva :P
