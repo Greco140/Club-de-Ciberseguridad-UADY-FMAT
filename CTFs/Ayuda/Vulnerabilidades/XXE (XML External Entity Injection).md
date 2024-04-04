@@ -1,0 +1,3 @@
+- XXE es una vulnerabilidad que ocurre cuando una aplicación procesa entradas XML no confiables y permite la inclusión de entidades externas.
+- Un atacante puede aprovechar XXE para leer archivos locales, escanear puertos internos, o incluso ejecutar comandos en el servidor.
+- Esto puede ocurrir en aplicaciones que procesan XML sin desactivar la resolución de entidades externas o sin filtrar correctamente las entradas del usuario.

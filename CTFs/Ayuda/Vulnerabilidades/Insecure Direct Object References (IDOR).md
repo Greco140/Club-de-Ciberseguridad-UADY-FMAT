@@ -1,0 +1,3 @@
+- IDOR es una vulnerabilidad que ocurre cuando una aplicación web expone referencias a objetos directos internos, como archivos o registros de base de datos, sin la debida autorización.
+- Un atacante puede manipular estas referencias para acceder a objetos que no deberían estar disponibles para ellos, lo que puede conducir a la divulgación de información sensible o la ejecución de acciones no autorizadas.
+- Para mitigar este riesgo, las aplicaciones deben implementar controles de acceso adecuados y no confiar en referencias directas para identificar objetos internos.

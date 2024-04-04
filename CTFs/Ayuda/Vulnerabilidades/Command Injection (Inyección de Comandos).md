@@ -1,0 +1,3 @@
+- La inyección de comandos es una vulnerabilidad que ocurre cuando una aplicación web acepta entradas de usuario que se ejecutan como comandos del sistema operativo.
+- Esto puede ocurrir cuando las entradas del usuario no se validan adecuadamente o se concatenan directamente en comandos del sistema sin una sanitización adecuada.
+- Un atacante puede aprovechar la inyección de comandos para ejecutar comandos maliciosos en el servidor y comprometer la seguridad del sistema, como la eliminación de archivos o la ejecución de programas arbitrarios.

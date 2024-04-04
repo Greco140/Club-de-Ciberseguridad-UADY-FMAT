@@ -1,0 +1,3 @@
+- La deserialización insegura es una vulnerabilidad que ocurre cuando una aplicación web deserializa datos no confiables sin una validación adecuada.
+- Esto puede conducir a la ejecución de código arbitrario, la elevación de privilegios o la creación de objetos maliciosos en la memoria del sistema.
+- Un atacante puede aprovechar la deserialización insegura para manipular el flujo de control de la aplicación y llevar a cabo ataques como la ejecución remota de código.

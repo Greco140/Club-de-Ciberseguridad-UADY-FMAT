@@ -1,0 +1,3 @@
+- Esta vulnerabilidad ocurre cuando una aplicación web expone información sensible o crítica sin la debida protección.
+- Esto puede incluir la exposición de credenciales de usuario, información de configuración interna, o detalles técnicos que podrían ser utilizados por un atacante para planificar un ataque.
+- Para mitigar este riesgo, las aplicaciones deben implementar medidas de control de acceso adecuadas y evitar la exposición innecesaria de información sensible.

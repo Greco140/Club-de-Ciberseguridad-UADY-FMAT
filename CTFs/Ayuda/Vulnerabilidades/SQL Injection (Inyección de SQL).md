@@ -1,0 +1,3 @@
+- La inyección de SQL es una vulnerabilidad que permite a un atacante ejecutar comandos SQL maliciosos en una aplicación web.
+- Esto puede ocurrir cuando la aplicación web no valida o escapa adecuadamente las entradas del usuario antes de enviarlas a la base de datos.
+- Un atacante puede utilizar la inyección de SQL para extraer información confidencial de la base de datos, modificar o eliminar datos, o incluso tomar el control completo del sistema.

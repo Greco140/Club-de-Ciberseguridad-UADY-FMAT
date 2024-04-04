@@ -1,0 +1,3 @@
+- RCE es una vulnerabilidad que permite a un atacante ejecutar código arbitrario en un sistema remoto.
+- Esto puede ocurrir cuando un sistema acepta datos no confiables y los ejecuta como código, o cuando una aplicación web permite la carga y ejecución de archivos arbitrarios.
+- Un atacante puede aprovechar RCE para instalar malware, robar información confidencial, o tomar el control completo del sistema comprometido.

@@ -1,0 +1,3 @@
+- La inyección de plantillas en el servidor es una vulnerabilidad que ocurre cuando una aplicación web permite la ejecución de código en el contexto de la plantilla del servidor.
+- Esto puede ocurrir cuando las entradas del usuario se incrustan directamente en las plantillas de servidor sin una validación adecuada.
+- Un atacante puede aprovechar la inyección de plantillas en el servidor para ejecutar código malicioso en el servidor y comprometer la seguridad del sistema, como la ejecución de comandos del sistema o la extracción de datos sensibles.

@@ -1,0 +1,3 @@
+- La autenticación rota es una vulnerabilidad que ocurre cuando una aplicación web implementa incorrectamente los mecanismos de autenticación y control de acceso.
+- Esto puede permitir a un atacante comprometer las credenciales de usuario, realizar sesiones secundarias, o acceder a funciones o datos restringidos sin autorización.
+- Un atacante puede aprovechar la autenticación rota para comprometer cuentas de usuario, acceder a información confidencial o realizar acciones maliciosas en nombre de otros usuarios.

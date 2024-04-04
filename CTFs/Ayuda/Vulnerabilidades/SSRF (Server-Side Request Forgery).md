@@ -1,0 +1,3 @@
+- SSRF es una vulnerabilidad que permite a un atacante realizar solicitudes HTTP desde el servidor hacia destinos arbitrarios, potencialmente internos o no accesibles desde el exterior.
+- Esto ocurre cuando una aplicación web acepta entradas del usuario para realizar solicitudes HTTP y el atacante puede controlar las URL solicitadas.
+- Un atacante puede aprovechar SSRF para escanear y atacar recursos internos, realizar ataques de escucha a servicios internos, o comprometer la seguridad de la red interna.
