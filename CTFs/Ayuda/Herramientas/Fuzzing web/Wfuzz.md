@@ -11,6 +11,7 @@ Donde:
 - `-u URL`: es la URL de la aplicación web que deseas analizar. La palabra `FUZZ` en la URL se utiliza como marcador para que wfuzz reemplace este marcador con las palabras de una lista de palabras.
 
 **Ejemplo de comando para rutas dentro del dominio:**
+
 `wfuzz -c --hc 404 -t 200 -w /usr/share/wordlists/dirbuster/directory-list-lowercase-2.3-medium.txt -u http://10.10.10.10/FUZZ`
 
 - `-c`: muestra la salida en un formato limpio y legible.
