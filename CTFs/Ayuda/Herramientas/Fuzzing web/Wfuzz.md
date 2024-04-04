@@ -28,10 +28,13 @@ También se puede buscar después de la palabra FUZZ como en:
 Lo que hará es realizar fuzzing en URLs que sigan el patrón `http://10.10.10.10/FUZZ.php`, donde `FUZZ` será reemplazado por las palabras de la lista de palabras especificada. Esto es útil para buscar posibles nombres de archivos o rutas en la URL.
 
 **Ejemplo de comando para subdominios:** 
+
 `wfuzz -c --hc 404 -t 200 -w /usr/share/wordlists/dirbuster/directory-list-lowercase-2.3-medium.txt -u https://nunchucks.htb -H "Host: FUZZ.nunchucks.htb"` 
+
 Lo que hará es realizar fuzzing en subdominios de `nunchucks.htb`, donde `FUZZ` será reemplazado por las palabras de la lista de palabras especificada. Esto puede ayudar a identificar subdominios potencialmente vulnerables o no descubiertos.
 
 Otro ejemplo:
+
 `wfuzz -c --hc 404 --hl 546 -t 200 -w /usr/share/wordlists/dirbuster/directory-list-lowercase-2.3-medium.txt -u https://nunchucks.htb -H "Host: FUZZ.nunchucks.htb"` 
 La única diferencia es que ocultará los resultados que tengan 546 líneas, en esta máquina de htb es útil ya que muchas mostraban la misma cantidad de líneas y nos interesa ver cual tiene diferente cantidad de líneas.
 
