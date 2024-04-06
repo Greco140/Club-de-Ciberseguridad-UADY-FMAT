@@ -34,7 +34,7 @@ Donde `<target>` puede ser una dirección IP específica, un rango de direccione
 **Ejemplo de uso:**
 
 ```
-nmap -p- --open --min-rate=5000 -vvv -sCV -n -Pn <ip víctima> -oN escaneo
+nmap -p- -sS --open --min-rate=5000 -vvv -sCV -n -Pn <ip víctima> -oN escaneo
 ```
 Donde:
 - **`nmap`**: Es el comando para ejecutar Nmap, una herramienta de escaneo de red.
@@ -42,6 +42,8 @@ Donde:
 - **`-p-`**: Esta opción indica a Nmap que escanee todos los puertos, desde el puerto 1 hasta el puerto 65535. El guion (`-`) después de `-p` significa "todos los puertos".
     
 - **`--open`**: Esta opción le dice a Nmap que muestre solo los puertos que están abiertos. Esto ayuda a filtrar la salida y mostrar solo la información relevante.
+
+- **sS**: Este es un escaneo de tipo SYN (también conocido como escaneo "half-open"). En este tipo de escaneo, Nmap envía un paquete SYN al puerto de destino y espera una respuesta. Si recibe una respuesta SYN/ACK (indicando que el puerto está abierto), Nmap envía un paquete RST para cerrar la conexión, sin completar el proceso de establecimiento de la conexión TCP. Esto hace que el escaneo sea más rápido y menos intrusivo que un escaneo TCP completo.
     
 - **`--min-rate=5000`**: Esta opción establece la velocidad mínima de escaneo a 5000 paquetes por segundo. Esto puede aumentar la velocidad del escaneo, pero ten en cuenta que escanear a una velocidad muy alta puede aumentar la probabilidad de detección o de ser bloqueado por firewalls o sistemas de detección de intrusos.
     
